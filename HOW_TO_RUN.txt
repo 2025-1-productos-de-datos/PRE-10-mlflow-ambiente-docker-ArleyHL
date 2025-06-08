@@ -2,8 +2,8 @@ Se empaqueta el experimento en una imagen de Docker completa.
 En este punto el unico problema latente es centralizar los 
 resultados de las corridas en un solo lugar (disco de red o
 almacenamiento en la nube).
-
-$ docker build -t jdvelasq/mlflow:example .
+$ docker image ls
+$ docker build -t arleyhldock/mlflow:example .
 
 
 
